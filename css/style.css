@@ -1,0 +1,26 @@
+.mycard
+{
+    height: 440px;
+    background-color: #FEE4CA;
+    border-radius: 40px;
+   transition: 0.3s ease;
+}
+.mycard div img
+{
+    transform: rotate(-20deg);
+    transition: 0.4s ease;
+}
+.mycard:hover
+{
+    margin-top: -30px;
+}
+.mycard:hover div img
+{
+    margin-top: -100px;
+    transform: rotate(0deg);
+}
+.mycard div h5,h6
+{
+    color:#6B3D2B;
+    font-weight: 600;
+}
